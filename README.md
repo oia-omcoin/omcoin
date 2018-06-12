@@ -1,7 +1,7 @@
 Omcoin integration/staging tree
 ================================
 
-http://www.omcoin.org
+http://www.omisaal.com/omcoin/
 
 Copyright (c) 2009-2014 Bitcoin Developers
 Copyright (c) 2011-2014 Omcoin Developers
@@ -11,7 +11,7 @@ What is Omcoin?
 
 Omcoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
  - 2 minute block targets
- - subsidy halves in 840k blocks (~4 years)
+ - subsidy halves in 840k blocks (~2 years)
  - ~21 million total coins
 
 The rest is the same as Bitcoin.
@@ -19,7 +19,7 @@ The rest is the same as Bitcoin.
  - 2016 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
-the Omcoin client sofware, see http://www.omcoin.org.
+the Omcoin client sofware, see http://www.omisaal.com/omcoin/
 
 License
 -------
@@ -45,7 +45,7 @@ match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/omcoin-project/omcoin/tags) are created
+completely stable. [Tags](https://github.com/oia-omcoin/omcoin/tags) are created
 regularly to indicate new official, stable release versions of Omcoin.
 
 Testing
