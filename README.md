@@ -7,6 +7,8 @@ Copyright (c) 2009-2014 Bitcoin Developers
 Copyright (c) 2011-2014 Litecoin Developers
 Copyright (c) 2017-     Omcoin Developers
 
+Please contact omisaal@mail.com for any queries. request for more information, request to start a new peer server, request to become the administrator or request to anything.
+
 What is Omcoin?
 ----------------
 
