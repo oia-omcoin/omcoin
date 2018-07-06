@@ -17,19 +17,25 @@
 
 CXX ?= g++
 
-USE_UPNP:=-
+USE_UPNP:=1
 USE_IPV6:=1
 
 DEPSDIR?=/usr/local
-BOOST_SUFFIX?=-mgw46-mt-sd-1_52
+BOOST_SUFFIX?=-mgw49-mt-s-1_55
 
 INCLUDEPATHS= \
  -I"$(CURDIR)" \
- -I"$(DEPSDIR)/include"
+ -I"/c/deps/boost_1_55_0" \
+ -I"/c/deps" \
+ -I"/c/deps/db-4.8.30.NC/build_unix" \
+ -I"/c/deps/openssl-1.0.2k/include"
 
 LIBPATHS= \
  -L"$(CURDIR)/leveldb" \
- -L"$(DEPSDIR)/lib"
+ -L"/c/deps/boost_1_55_0/stage/lib" \
+ -L"/c/deps/miniupnpc" \
+ -L"/c/deps/db-4.8.30.NC/build_unix" \
+ -L"/c/deps/openssl-1.0.2k"
 
 LIBS= \
  -l leveldb \
@@ -47,7 +53,7 @@ DEFS=-D_MT -DWIN32 -D_WINDOWS -DBOOST_THREAD_USE_LIB -DBOOST_SPIRIT_THREADSAFE
 DEBUGFLAGS=-g
 CFLAGS=-mthreads -O2 -w -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter $(DEBUGFLAGS) $(DEFS) $(INCLUDEPATHS)
 # enable: ASLR, DEP and large address aware
-LDFLAGS=-Wl,--dynamicbase -Wl,--nxcompat -Wl,--large-address-aware
+LDFLAGS=-Wl,--dynamicbase -Wl,--nxcompat -Wl,--large-address-aware -static
 
 TESTDEFS = -DTEST_DATA_DIR=$(abspath test/data)
 
@@ -63,7 +69,7 @@ ifneq (${USE_IPV6}, -)
 	DEFS += -DUSE_IPV6=$(USE_IPV6)
 endif
 
-LIBS += -l mingwthrd -l kernel32 -l user32 -l gdi32 -l comdlg32 -l winspool -l winmm -l shell32 -l caumctl32 -l ole32 -l oleaut32 -l uuid -l rpcrt4 -l advapi32 -l ws2_32 -l mswsock -l shlwapi
+LIBS += -l mingwthrd -l kernel32 -l user32 -l gdi32 -l comdlg32 -l winspool -l winmm -l shell32 -l comctl32 -l ole32 -l oleaut32 -l uuid -l rpcrt4 -l advapi32 -l ws2_32 -l mswsock -l shlwapi
 
 # TODO: make the mingw builds smarter about dependencies, like the linux/osx builds are
 HEADERS = $(wildcard *.h)
