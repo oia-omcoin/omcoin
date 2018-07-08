@@ -5,6 +5,7 @@
 
 #include "db.h"
 #include "net.h"
+
 #include "init.h"
 #include "addrman.h"
 #include "ui_interface.h"
