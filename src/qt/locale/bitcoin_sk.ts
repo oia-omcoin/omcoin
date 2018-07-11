@@ -2231,8 +2231,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 4553 or testnet: 14553)</source>
-        <translation>Načúvať spojeniam na &lt;port&gt; (prednastavené: 4553 alebo testovacia sieť: 14553)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 7559 or testnet: 47339)</source>
+        <translation>Načúvať spojeniam na &lt;port&gt; (prednastavené: 7559 alebo testovacia sieť: 47339)</translation>
     </message>
     <message>
         <location line="+5"/>

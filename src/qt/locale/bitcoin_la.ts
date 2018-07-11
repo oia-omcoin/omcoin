@@ -2236,8 +2236,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 4553 or testnet: 14553)</source>
-        <translation>Ausculta pro conexionibus in &lt;porta&gt; (praedefinitum: 4553 vel testnet: 14553)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 7559 or testnet: 47339)</source>
+        <translation>Ausculta pro conexionibus in &lt;porta&gt; (praedefinitum: 7559 vel testnet: 47339)</translation>
     </message>
     <message>
         <location line="+5"/>

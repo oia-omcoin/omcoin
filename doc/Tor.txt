@@ -50,10 +50,10 @@ reachable from the Tor network. Add these lines to your /etc/tor/torrc (or equiv
 config file):
 
   HiddenServiceDir /var/lib/tor/omcoin-service/
-  HiddenServicePort 4553 127.0.0.1:4553
+  HiddenServicePort 7559 127.0.0.1:7559
 
 The directory can be different of course, but (both) port numbers should be equal to
-your omcoind's P2P listen port (4553 by default).
+your omcoind's P2P listen port (7559 by default).
 
 -externalip=X   You can tell omcoin about its publicly reachable address using
                 this option, and this can be a .onion address. Given the above
@@ -83,7 +83,7 @@ specify:
 
   ./omcoind ... -discover
 
-and open port 4553 on your firewall (or use -upnp).
+and open port 7559 on your firewall (or use -upnp).
 
 If you only want to use Tor to reach onion addresses, but not use it as a proxy
 for normal IPv4/IPv6 communication, use:

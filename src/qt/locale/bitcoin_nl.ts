@@ -2239,8 +2239,8 @@ Adres: %4
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 4553 or testnet: 14553)</source>
-        <translation>Luister voor verbindingen op &lt;poort&gt; (standaard: 4553 of testnet: 14553)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 7559 or testnet: 47339)</source>
+        <translation>Luister voor verbindingen op &lt;poort&gt; (standaard: 7559 of testnet: 47339)</translation>
     </message>
     <message>
         <location line="+5"/>

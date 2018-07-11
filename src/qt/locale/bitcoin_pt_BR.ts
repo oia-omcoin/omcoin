@@ -2236,8 +2236,8 @@ Endereço: %4</translation>
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 4553 or testnet: 14553)</source>
-        <translation>Procurar por conexões em &lt;port&gt; (padrão: 4553 ou testnet:14553)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 7559 or testnet: 47339)</source>
+        <translation>Procurar por conexões em &lt;port&gt; (padrão: 7559 ou testnet:47339)</translation>
     </message>
     <message>
         <location line="+5"/>
