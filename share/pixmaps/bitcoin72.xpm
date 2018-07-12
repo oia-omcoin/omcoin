@@ -1533,7 +1533,7 @@ static const unsigned char * bitcoin72_xpm[] = {
 "[2	c #AF9E5C",
 "]2	c #927C47",
 "^2	c #746536",
-"_2	c #67559B",
+"_2	c #64552B",
 "`2	c #5D5027",
 "a2	c #65592D",
 "b2	c #7A6D3B",
