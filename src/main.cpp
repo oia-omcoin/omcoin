@@ -1095,7 +1095,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 2 * 24 * 60 * 60; // Omcoin: 1 hour
+static const int64 nTargetTimespan = 2 * 24 * 60 * 60; // Omcoin: 2 days
 static const int64 nTargetSpacing = 5 * 60; // Omcoin: 5 minutes
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
