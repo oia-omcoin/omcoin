@@ -1,13 +1,13 @@
 Omcoin integration/staging tree
 ================================
 
-http://www.omisaal.com/omcoin/
+http://www.omisaal.com/omcoin.html
 
 Copyright (c) 2009-2014 Bitcoin Developers
 Copyright (c) 2011-2014 Litecoin Developers
-Copyright (c) 2017-     Omcoin Developers
+Copyright (c) 2017-2018 Omcoin Developers
 
-Please contact omisaal@mail.com for any queries. request for more information, request to start a new peer server, request to become the administrator or request to anything.
+Please contact omcoin@omisaal.com for any queries. request for more information, request to start a new peer server, request to become the administrator or request to be part and manage the community.
 
 What is Omcoin?
 ----------------
@@ -22,7 +22,7 @@ The rest is the same as Bitcoin.
  - 576 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
-the Omcoin client sofware, see http://www.omisaal.com/omcoin/
+the Omcoin client sofware, see http://www.omisaal.com/omcoin.html
 
 License
 -------
